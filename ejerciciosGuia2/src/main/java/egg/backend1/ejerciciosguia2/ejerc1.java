@@ -15,12 +15,13 @@ public class ejerc1 {
      */
     public static void main(String[] args) {
         
-        String nombre;
-        int numero;
-        int num;
-        double decimal;
-        char letra;
-        boolean verdadero;
+        String nombre = "Pablo";
+        int numero = 7;
+        int num = 22;
+        double decimal = 7.7;
+        char letra = 'p';
+        boolean rojo = true;
+        
         
     }
     
