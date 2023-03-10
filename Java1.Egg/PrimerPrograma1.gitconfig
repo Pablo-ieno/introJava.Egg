@@ -1,0 +1,18 @@
+cd /home/iz-living/NetBeansProjects/introJava; JAVA_HOME=/usr/lib/jvm/java-19-openjdk-amd64 /usr/lib/apache-netbeans/java/maven/bin/mvn -Dexec.vmArgs= "-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}" -Dexec.executable=/usr/lib/jvm/java-19-openjdk-amd64/bin/java -Dexec.mainClass=egg.backend1.introjava.HolaMundo -Dexec.classpathScope=runtime -Dexec.appArgs= --no-transfer-progress org.codehaus.mojo:exec-maven-plugin:3.1.0:exec
+Running NetBeans Compile On Save execution. Phase execution is skipped and output directories of dependency projects (with Compile on Save turned on) will be used instead of their jar artifacts.
+Scanning for projects...
+
+-----------------------< Egg.Backend1:introJava >-----------------------
+Building introJava 1.0-SNAPSHOT
+--------------------------------[ jar ]---------------------------------
+
+--- exec-maven-plugin:3.1.0:exec (default-cli) @ introJava ---
+Ingrese su nombre
+pablo ieno
+Hola Mundo! soy pablo y estoy programando en Java!
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  9.645 s
+Finished at: 2023-03-09T16:17:25-03:00
+------------------------------------------------------------------------
